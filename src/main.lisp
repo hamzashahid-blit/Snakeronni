@@ -15,9 +15,9 @@
 ;; + Tounge attack which pulls opponent snake
 ;; + Online multiplayer (WIGs)
 
-(defpackage mcnibbles
+(defpackage snakeronni
   (:use :clim-lisp :clim))
-(in-package :mcnibbles)
+(in-package :snakeronni)
 
 (defparameter *board-width* 40)
 (defparameter *board-height* 40)
@@ -345,8 +345,8 @@
   (setf *running* nil)
   (frame-exit *application-frame*))
 
-(defun mcnibbles ()
+(defun snakeronni ()
   (run-frame-top-level (make-application-frame 'snake-app)))
 
-(defun mcnibbles-repl ()
+(defun snakeronni-repl ()
   (find-application-frame 'snake-app))

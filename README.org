@@ -1,17 +1,9 @@
-* Mcnibbles  - Nibbles clone in McCLIM
-
+* Snakeronni - A Modern Version of the Classical Snake Game
 ** Usage
-
 ** Installation
-
 ** Author
-
 + Hamza Shahid
-
 ** Copyright
-
 Copyright (c) 2021 Hamza Shahid
-
 ** License
-
-Licensed under the BSD 2 Clause License License.
+Licensed under the BSD 2 Clause "Simplified" License.

@@ -1,10 +1,10 @@
-(defpackage mcnibbles/tests/main
+(defpackage snakeronni/tests/main
   (:use :cl
-        :mcnibbles
+        :snakeronni
         :rove))
-(in-package :mcnibbles/tests/main)
+(in-package :snakeronni/tests/main)
 
-;; NOTE: To run this test file, execute `(asdf:test-system :mcnibbles)' in your Lisp.
+;; NOTE: To run this test file, execute `(asdf:test-system :snakeronni)' in your Lisp.
 
 (deftest test-target-1
   (testing "should (= 1 1) to be true"
